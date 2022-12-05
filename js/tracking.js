@@ -13,7 +13,7 @@ const startClock = function () {
         timer = setInterval(() => {
             let minutes = parseInt(time / 60, 10);
             let seconds = parseInt(time % 60, 10);
-            timeElement.value = parseString(minutes).padStart(2,'0') + parseString(seconds).padStart(2,'0');
+            timeElement.value = `${minutes}`.padStart(2,'0') + `${seconds}`.padStart(2,'0');
         }, 1000);
         buttonElement.textContent = 'End';
     }
