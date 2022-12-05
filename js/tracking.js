@@ -22,7 +22,7 @@ const startClock = function () {
 
 window.tracker.addEventListener('submit', function(e) {
     e.preventDefault();
-    t.startClock();
+    startClock();
     return ;   
 });
 
