@@ -9,8 +9,8 @@ TrelloPowerUp.initialize({
                 text: 'TrackTime',
                 callback: function(t) {
                     return t.popup({
-                        title: "Estimation",
-                        url: 'estimate.html',
+                        title: "Tractime",
+                        url: 'tracking_overview.html',
                     });
                 }
             }
