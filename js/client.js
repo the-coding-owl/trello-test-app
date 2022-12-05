@@ -6,7 +6,7 @@ TrelloPowerUp.initialize({
 	    return [
             {
                 icon: 'https://the-coding-owl.github.io/trello-test-app/icons/clock.svg',
-                text: 'TrackTime',
+                text: 'Tractime',
                 callback: function(t) {
                     return t.popup({
                         title: "Tractime",
