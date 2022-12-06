@@ -19,8 +19,8 @@ const startClock = function () {
             time += 1;
         }, 1000);
         buttonElement.textContent = 'End';
+        t.notifyParent('done');
     }
-    
 };
 
 window.tracker.addEventListener('submit', function(e) {
